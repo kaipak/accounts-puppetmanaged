@@ -12,12 +12,12 @@ define accounts_puppetmanaged::account(
 
   file { "/home/${title}/.ssh":
     ensure => directory,
-    mode   => 0700,
+    mode   => '0700',
   }
 
   file { "/home/${title}/.ssh/id_rsa":
     ensure  => file,
-    mode    => 0600,
+    mode    => '0600',
     content => $sshkey,
     owner   => $title,
     group   => $title,
