@@ -1,4 +1,4 @@
-define accounts_puppetmanaged::account(
+define accounts::account(
   $passwd,
   $sshkey,
   $shell = '/bin/bash',
