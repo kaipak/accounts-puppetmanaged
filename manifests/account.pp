@@ -18,7 +18,7 @@ define accounts_puppetmanaged::account(
   file { "/home/${title}/.ssh/id_rsa":
     ensure  => file,
     mode    => 0600,
-    content => $sshkey
+    content => $sshkey,
     owner   => $title,
     group   => $title,
   }
