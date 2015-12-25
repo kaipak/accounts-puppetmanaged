@@ -1,0 +1,36 @@
+accounts:
+    'einstein':
+       ensure: present
+       passwd: 'blah'
+       sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlSgCx8ahdzkhDNC4+82znRXj1TxQP5bd55iT3JL8o1a12Cn09GgJUoNOjoEBMFXPJo
+cf0MCxulpoZsaokPS+eEUyPuIRqugJ032C8F5zHD8cK3U9Mln/z/xJYCv5O0ZjiwvAsN0EdJo1BN+p2JVUR+htb1jFE3GZv3cp18o+4QRH9mPOUp5mAz+HLA
+YWSC/kYtKwPzxmyXMVSjrvVse29QoN1IdeBz5BKTIM+UUp6GWnRkZINB332gBAltoglQL/tqqRpkXoFgo0x1c7EdnxRGf73xdVdedzPD+PwW/RjrWDD2pd1H
+uvbk9Z5dtAgDTMAZ5zMYhPETMR/vIjlE4fl
+    'feynman':
+       ensure: present
+       passwd: 'secret'
+       sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlSgCx8ahdzkhDNC4+82znRXj1TxQP5bd55iT3JL8o1a12Cn09GgJUoNOjoEBMFXPJo
+cf0MCxulpoZsaokPS+eEUyPuIRqugJ032C8F5zHD8cK3U9Mln/z/xJYCv5O0ZjiwvAsN0EdJo1BN+p2JVUR+htb1jFE3GZv3cp18o+4QRH9mPOUp5mAz+HLA
+YWSC/kYtKwPzxmyXMVSjrvVse29QoN1IdeBz5BKTIM+UUp6GWnRkZINB332gBAltoglQL/tqqRpkXoFgo0x1c7EdnxRGf73xdVdedzPD+PwW/RjrWDD2pd1H
+uvbk9Z5dtAgDTMAZ5zMYhPETMR/vIjlE4fl
+    'dirac':
+       ensure: present
+       passwd: 'secret'
+       sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlSgCx8ahdzkhDNC4+82znRXj1TxQP5bd55iT3JL8o1a12Cn09GgJUoNOjoEBMFXPJo
+cf0MCxulpoZsaokPS+eEUyPuIRqugJ032C8F5zHD8cK3U9Mln/z/xJYCv5O0ZjiwvAsN0EdJo1BN+p2JVUR+htb1jFE3GZv3cp18o+4QRH9mPOUp5mAz+HLA
+YWSC/kYtKwPzxmyXMVSjrvVse29QoN1IdeBz5BKTIM+UUp6GWnRkZINB332gBAltoglQL/tqqRpkXoFgo0x1c7EdnxRGf73xdVdedzPD+PwW/RjrWDD2pd1H
+uvbk9Z5dtAgDTMAZ5zMYhPETMR/vIjlE4fl
+    'alice':
+       ensure: present
+       passwd: 'secret'
+       sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlSgCx8ahdzkhDNC4+82znRXj1TxQP5bd55iT3JL8o1a12Cn09GgJUoNOjoEBMFXPJo
+cf0MCxulpoZsaokPS+eEUyPuIRqugJ032C8F5zHD8cK3U9Mln/z/xJYCv5O0ZjiwvAsN0EdJo1BN+p2JVUR+htb1jFE3GZv3cp18o+4QRH9mPOUp5mAz+HLA
+YWSC/kYtKwPzxmyXMVSjrvVse29QoN1IdeBz5BKTIM+UUp6GWnRkZINB332gBAltoglQL/tqqRpkXoFgo0x1c7EdnxRGf73xdVdedzPD+PwW/RjrWDD2pd1H
+uvbk9Z5dtAgDTMAZ5zMYhPETMR/vIjlE4fl
+    'bob':
+       ensure: present
+       passwd: 'secret'
+       sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlSgCx8ahdzkhDNC4+82znRXj1TxQP5bd55iT3JL8o1a12Cn09GgJUoNOjoEBMFXPJo
+cf0MCxulpoZsaokPS+eEUyPuIRqugJ032C8F5zHD8cK3U9Mln/z/xJYCv5O0ZjiwvAsN0EdJo1BN+p2JVUR+htb1jFE3GZv3cp18o+4QRH9mPOUp5mAz+HLA
+YWSC/kYtKwPzxmyXMVSjrvVse29QoN1IdeBz5BKTIM+UUp6GWnRkZINB332gBAltoglQL/tqqRpkXoFgo0x1c7EdnxRGf73xdVdedzPD+PwW/RjrWDD2pd1H
+uvbk9Z5dtAgDTMAZ5zMYhPETMR/vIjlE4fl
