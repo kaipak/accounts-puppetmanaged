@@ -11,8 +11,11 @@ define accounts::account(
   }
 
   file { "/home/${title}/.ssh":
-    ensure => directory,
-    mode   => '0700',
+    ensure  => directory,
+    mode    => '0700',
+    owner   => $title,
+    group   => $title,
+    require => User[$title],
   }
 
   file { "/home/${title}/.ssh/id_rsa":
@@ -21,5 +24,6 @@ define accounts::account(
     content => $sshkey,
     owner   => $title,
     group   => $title,
+    require => File["/home/${title}/.ssh"],
   }
 }
