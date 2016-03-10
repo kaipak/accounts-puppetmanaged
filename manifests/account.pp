@@ -2,10 +2,11 @@ define accounts::account(
   $passwd,
   $sshkey,
   $shell = '/bin/bash',
+  $ensure,
 ){
 
   user { $title:
-    ensure     => present,
+    ensure     => $ensure,
     managehome => true,
     password   => $passwd,
   }
