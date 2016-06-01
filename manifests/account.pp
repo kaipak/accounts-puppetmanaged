@@ -1,4 +1,4 @@
-define accounts::account(
+define accountspkg::account(
   $passwd,
   $sshkey,
   $shell = '/bin/bash',
