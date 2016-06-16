@@ -19,7 +19,7 @@ define accountspkg::account(
     require => User[$title],
   }
 
-  file { "/home/${title}/.ssh/id_rsa":
+  file { "/home/${title}/.ssh/authorized_keys":
     ensure  => file,
     mode    => '0600',
     content => $sshkey,
